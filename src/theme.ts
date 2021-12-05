@@ -78,15 +78,14 @@ export default extendTheme({
         },
         "header-link": {
           bg: "transparent",
-          color: "white",
-          fontFamily: "Raleway",
+          color: "secondary.500",
+          fontFamily: "Karla",
           fontSize: ["sm", "lg"],
           paddingInlineStart: [0, "inherit"],
           paddingInlineEnd: [0, "inherit"],
-          w: ["auto", 20],
           _hover: {
-            textDecoration: "underline",
-            fontWeight: "700",
+            bg: "white",
+            color: "primary.500",
           },
         },
 
@@ -100,6 +99,16 @@ export default extendTheme({
           px: [12],
           _hover: {
             bg: "primary.300",
+            color: "white",
+          },
+        },
+        outline: {
+          borderColor: "primary.500",
+          borderWidth: 2,
+          borderRadius: 0,
+          px: 8,
+          _hover: {
+            bg: "primary.500",
             color: "white",
           },
         },

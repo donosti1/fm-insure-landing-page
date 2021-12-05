@@ -60,7 +60,9 @@ const Features = () => {
                 ones are protected.
               </Text>
               <Stack paddingBottom={[8, 96]} paddingTop={[8, 8]}>
-                <Button variant="outline-darkBg">View plans</Button>
+                <Button variant="outline-darkBg" zIndex="1">
+                  View plans
+                </Button>
               </Stack>
             </Stack>
             <Stack

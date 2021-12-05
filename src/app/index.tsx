@@ -23,4 +23,4 @@ const App: React.FC = () => {
 };
 
 export default App;
-/* How we work Blog Account View plans      */
+/* View plans      */
