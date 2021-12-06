@@ -7,13 +7,6 @@ const Header = () => {
     <Stack
       alignItems="center"
       backgroundColor="secondary.400"
-      backgroundImage={[
-        "url('/assets/bg-curvy-mobile.svg')",
-        "url('/assets/bg-curvy-desktop.svg')",
-      ]}
-      backgroundPosition={["center 65%", "center bottom"]}
-      backgroundRepeat="no-repeat"
-      backgroundSize={["contain", "contain"]}
       paddingY={[4, 6]}
       spacing={0}
       width="100%"

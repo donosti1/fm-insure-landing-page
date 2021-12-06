@@ -30,7 +30,7 @@ const Header = () => {
           justifyContent="space-between"
         >
           <Image alt="logo" height={[6, 4]} src="/assets/logo.svg" width={[20, 20]} />
-          <Stack direction="row" spacing={[2, 6]}>
+          <Stack direction="row" display={["none", "flex"]} spacing={[2, 6]}>
             {menuItems.map((mi) => (
               <Button key={mi.id} variant="header-link">
                 {mi.label}

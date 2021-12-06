@@ -11,7 +11,12 @@ const FeaturesCard = (props: Feature) => {
 
   return (
     <>
-      <Stack alignItems={["center", "flex-start"]} className="FeaturesCard" spacing={[4, 2]}>
+      <Stack
+        alignItems={["center", "flex-start"]}
+        className="FeaturesCard"
+        paddingX={[4, 0]}
+        spacing={[4, 2]}
+      >
         <Image alt={props.title} src={imageSrc} />
         <Text as="h2" fontSize={["xl", "xl"]} fontWeight="700" paddingTop={[4, 6]}>
           {props.title}
