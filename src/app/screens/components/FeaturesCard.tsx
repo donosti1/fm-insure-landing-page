@@ -18,10 +18,16 @@ const FeaturesCard = (props: Feature) => {
         spacing={[4, 2]}
       >
         <Image alt={props.title} src={imageSrc} />
-        <Text as="h2" fontSize={["xl", "xl"]} fontWeight="700" paddingTop={[4, 6]}>
+        <Text as="h2" fontSize={["2xl", "xl"]} fontWeight="700" paddingTop={[4, 6]}>
           {props.title}
         </Text>
-        <Text color="secondary.500" fontFamily="Karla" fontSize="sm" letterSpacing=".7px">
+        <Text
+          color="secondary.500"
+          fontFamily="Karla"
+          fontSize="sm"
+          letterSpacing=".7px"
+          textAlign={["center", "left"]}
+        >
           {props.feature}
         </Text>
       </Stack>

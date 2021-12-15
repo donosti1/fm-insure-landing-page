@@ -95,7 +95,7 @@ const Footer = () => {
       width="100%"
     >
       <Container maxWidth="container.xl">
-        <Stack divider={<StackDivider borderColor="primary.400" role="separator" />} spacing={8}>
+        <Stack divider={<StackDivider borderColor="secondary.500" role="separator" />} spacing={8}>
           <Stack
             alignItems="center"
             direction={["column", "row"]}

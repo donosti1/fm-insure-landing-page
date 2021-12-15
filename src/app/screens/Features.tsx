@@ -33,7 +33,7 @@ const Features = () => {
     <>
       <Stack
         background={[
-          "linear-gradient(0deg, white 45%, var(--chakra-colors-primary-500) 45%)",
+          "linear-gradient(0deg, white 58%, var(--chakra-colors-primary-500) 58%)",
           "linear-gradient(0deg, white 55%, var(--chakra-colors-primary-500) 55%)",
         ]}
         width="100%"
@@ -57,20 +57,25 @@ const Features = () => {
               />
               <Text
                 color="secondary.100"
-                fontSize={["4xl", "6xl"]}
+                fontSize={[40, "6xl"]}
                 lineHeight={["1.2", "1"]}
                 paddingBottom={[4, 4]}
-                paddingTop={[8, 16]}
+                paddingTop={[16, 16]}
                 textAlign={["center", "left"]}
               >
                 Humanizing your insurance.
               </Text>
-              <Text color="secondary.100" fontFamily="Karla" textAlign={["center", "inherit"]}>
+              <Text
+                color="secondary.100"
+                fontFamily="Karla"
+                fontSize={["sm", "inherit"]}
+                textAlign={["center", "inherit"]}
+              >
                 Get your life insurance coverage easier and faster. We blend our expertise and
                 technology to help you find the plan that’s right for you. Ensure you and your loved
                 ones are protected.
               </Text>
-              <Stack paddingBottom={[8, 96]} paddingTop={[8, 8]}>
+              <Stack paddingBottom={[48, 96]} paddingTop={[8, 8]}>
                 <Button variant="outline-darkBg" zIndex="1">
                   View plans
                 </Button>
@@ -82,46 +87,53 @@ const Features = () => {
                 "url('/assets/image-intro-desktop.jpg')",
               ]}
               backgroundRepeat="no-repeat"
-              backgroundSize="contain"
+              backgroundSize={["cover", "contain"]}
               height={["sm", "auto"]}
             />
           </SimpleGrid>
-          <StackDivider borderColor="secondary.900" borderWidth={1} role="separator" width={32} />
+          <StackDivider
+            alignSelf={["center", "flex-start"]}
+            borderColor="primary.500"
+            borderWidth={1}
+            role="separator"
+            width={[36, 32]}
+          />
           <Text
             color="secondary.900"
-            fontSize={["3xl", "6xl"]}
+            fontSize={["2.5rem", "6xl"]}
             lineHeight={["1.2", "1"]}
-            paddingY={[4, 16]}
+            paddingBottom={[16, 16]}
+            paddingTop={[8, 16]}
             textAlign={["center", "left"]}
           >
             We’re different
           </Text>
-          <SimpleGrid columns={[1, 3]} gap={[4, 8]}>
+          <SimpleGrid columns={[1, 3]} gap={[16, 8]} paddingBottom={[32, 0]}>
             {features}
           </SimpleGrid>
         </Stack>
 
         <Stack
-          background={[
+          backgroundImage={[
             "url('/assets/bg-pattern-intro-right-mobile.svg')",
             "url('/assets/bg-pattern-intro-right-desktop.svg')",
           ]}
-          backgroundPosition={["100% 110%", "106% -97%"]}
+          backgroundPosition={["100% 24%", "106% -97%"]}
           backgroundRepeat="no-repeat"
           backgroundSize={["35%", "32%"]}
-          height="100vh"
+          height={["100%", "100vh"]}
           marginTop="0!important"
           position="absolute"
           width="100%"
         />
         <Stack
-          background={[
+          backgroundImage={[
             "url('/assets/bg-pattern-intro-left-mobile.svg')",
             "url('/assets/bg-pattern-intro-left-desktop.svg')",
           ]}
-          backgroundPosition="0% 80%"
+          backgroundPosition={["0% 56%", "0% 80%"]}
           backgroundRepeat="no-repeat"
-          backgroundSize="12%"
+          backgroundSize={["50%", "12%"]}
           height="150vh"
           marginTop="0!important"
           position="absolute"

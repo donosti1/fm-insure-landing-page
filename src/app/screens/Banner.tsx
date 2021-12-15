@@ -8,7 +8,7 @@ const Banner: FunctionComponent<BannerProps> = () => {
   const [hover, setHover] = useState(false);
 
   return (
-    <Stack width="100%">
+    <Stack paddingX={[4, 0]} width="100%">
       <Container
         backgroundColor="primary.500"
         backgroundImage={[

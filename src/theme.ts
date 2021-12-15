@@ -88,7 +88,23 @@ export default extendTheme({
             color: "primary.500",
           },
         },
-
+        "header-menu-button": {
+          borderColor: "primary.500",
+          borderWidth: 2,
+          borderRadius: 0,
+          paddingInlineStart: [0, "inherit"],
+          paddingInlineEnd: [0, "inherit"],
+          display: "flex",
+        },
+        "mobile-menu-link": {
+          bg: "transparent",
+          color: "white",
+          fontFamily: "Karla",
+          fontSize: ["lg", "lg"],
+          h: 16,
+          paddingInlineStart: [0, "inherit"],
+          paddingInlineEnd: [0, "inherit"],
+        },
         solid: {
           bg: "primary.400",
           color: "white",
@@ -119,6 +135,14 @@ export default extendTheme({
           minW: 12,
           fontSize: "lg",
           px: 10,
+        },
+      },
+    },
+    Drawer: {
+      baseStyle: {
+        dialog: {
+          bg: "secondary.900",
+          maxHeight: "90vh",
         },
       },
     },

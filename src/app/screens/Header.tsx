@@ -7,7 +7,7 @@ const Header = () => {
     <Stack
       alignItems="center"
       backgroundColor="secondary.400"
-      paddingY={[4, 6]}
+      paddingTop={[0, 6]}
       spacing={0}
       width="100%"
     >
